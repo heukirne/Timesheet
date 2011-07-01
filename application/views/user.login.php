@@ -10,7 +10,7 @@
 	<body>
 		<div id="wrap" class="login">
 			<?php echo Form::open('user/login', array('method' => 'post'));  ?>
-			<h1 style="font-size:22px;">Reloginho Escala</h1>
+			<h1 style="font-size:22px;">Reloginho</h1>
 			Usuario e senha:
 			<?php echo Form::input('tsuser', $post['tsuser'],array('class'=>'tx')); ?><br/>
 			<?php echo Form::password('tspass','',array('class'=>'tx')); ?><br/>
