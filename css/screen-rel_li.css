@@ -1,0 +1,54 @@
+@charset "UTF-8";
+@import "reset.css";
+@import "default.css";
+
+/* geral */
+
+* {
+	font-family:verdana, tahoma, arial, sans-seri;
+	font-size:12px;
+}
+
+html, body {
+	width: 100%;
+}
+h2 { font-size:24px; font-weight:bold; }
+ul { padding-left: 50px; }
+ul#root { padding-left: 0px; }
+ul li { padding: 2px; clear:both; text-align: left; }
+div { 
+	float: left;
+	width: 100px; 
+	padding-left: 10px;
+	background-color:#f3f3d5; 
+	text-align: left;
+	border: 1px solid #000;
+}
+/* parents */
+div.p1 {
+	width: 200px;
+}
+div.p2 {
+	width: 150px;
+}
+/* somatórios */
+div.s1 { 
+	width: 30px;
+	text-align: right; 
+}
+div.s2 { 
+	width: 30px;
+	text-align: right; 
+}
+/* fields */
+div.f0 { 
+	width: 30px; 
+	text-align: right;
+}
+div.f1 { 
+	width: 100px; 
+	text-align: right;
+}
+div.f2 { 
+	width: 300px; 
+}

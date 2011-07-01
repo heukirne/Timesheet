@@ -1,0 +1,143 @@
+@charset "UTF-8";
+@import "reset.css";
+@import "default.css";
+
+/* geral */
+
+* {
+	font-family:verdana, tahoma, arial, sans-seri;
+}
+
+body {
+	font-size:62.5%;
+	overflow:hidden;
+}
+
+html, body {
+	width: 280px;
+	height: 440px;
+}
+
+#wrap {
+	width:100%;
+	height:100%;
+	background-image: url('../imgs/app_bg.png'); 
+	color: #fff;
+	padding: 20px;
+}
+
+input, select { 
+	margin-top: 7px;
+}
+
+/* geral : botões */
+
+input.bt_out, input.bt {
+	height: 20px;
+	width: 78px;
+	font-size:10px;
+	opacity: 0.85;
+}
+
+input.bt_out:hover, input.bt:hover, input.bt_mini:hover {
+	opacity: 1;
+}
+
+input.bt_out:active, input.bt:active , input.bt_mini:active{
+	opacity: 1;
+	padding-left: 3px;
+	padding-top: 3px;
+}
+
+input.bt_out { 
+	background-image: url('../imgs/bt_out.png');
+	border: 1px solid #a4a3a2;	
+	color: #2890d2;
+	margin-left: 35px;
+}
+
+input.bt, input.bt_mini { 
+	background-image: url('../imgs/bt_bg.png'); 
+	border: 1px solid #2c89cb;
+	color: #fff;
+}
+
+input.bt_mini{ 
+	width: 25px;
+	height: 20px;
+}
+
+/* index, login */
+
+.login, #header{ text-align: right; }
+#wrap.index { text-align: center; font-size: 20px; }
+#wrap.index a.peq { font-size: 10px; }
+
+a { color:#ddd; font-weight:bold; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+form { 
+	padding: 120px 0px 120px 0px; 
+}
+
+input.tx {
+	border: 1px solid #999;
+	width: 280px;
+	height: 28px;
+	padding-left: 5px;
+	color: #999;
+}
+
+/* alarm */
+
+#alarm {
+	overflow: auto;
+	height: 350px;
+	font-size: 14px;
+	text-align: left;
+}
+
+/* timesheet */
+
+#header span{ font-size: 25px; vertical-align:top; }
+#user-name { font-size: 15px; }
+
+select {
+	height: 20px;
+	width: 198px;
+}
+select#clients { width: 250px; }
+
+input.bt#add { padding: 0px; }
+
+/* timesheet : tabela de tarefas */
+
+#wrap-work { 
+	background-color: #fff;
+	overflow: auto;
+	border: 1px solid #fff;
+	height: 200px; 
+	width: 280px;
+}
+
+#work { font-size: 10px; }
+#work tr { display:block; border-bottom: 2px dotted #999; }
+#work tr.play { background-color: #2890d2; color: #fff; }
+#work td { padding: 7px 2px 7px 2px; width:50px; vertical-align: middle; }
+#work td:first-child { width:145px; overflow:hidden; }
+#work .bt_td { text-align:right; }
+
+/* timesheet : tabela de tarefas : botões */
+
+#play , #del { height: 21px; width:21px; border: 0px; background-color: transparent;}
+#play { background-image: url('../imgs/bt_play.png');  }
+#del { background-image: url('../imgs/bt_del_1.png');  }
+
+.play #play { background-image: url('../imgs/bt_pause.png');  }
+.play #del { background-image: url('../imgs/bt_del_2.png');  }
+
+/* timesheet : temporizador */
+
+#task-now  span, #timer-now { position:relative; top:-15px; }
+#task-now  span { font-size: 12px; background-color:#004f98; padding-right: 5px; }
+#timer-now { text-align: center; font-size: 36px; }

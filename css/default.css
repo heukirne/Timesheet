@@ -1,0 +1,35 @@
+﻿/* +default classes */
+.left {float:left}
+.right {float:right}
+.nofloat {float:none !important}
+.clear {clear:both}
+.invisible {position:absolute;top:-9999px;left:-9999px;}
+.hide {display:none}
+.hide-text {display:block;text-indent:-9999px;overflow:hidden;outline:none}
+.bold {font-weight:bold}
+.italic {font-style:italic}
+.upper {text-transform:uppercase}
+.lower {text-transform:lowercase}
+.underline {text-decoration:underline;}
+.center {text-align:center}
+.align-left {text-align:left !important} /* text-left  */
+.align-right {text-align:right !important} /* text-right */
+.align-justify {text-align:justify !important} /* text-left  */
+.line-through { text-decoration:line-through !important; }
+
+.first {margin-left:0 !important; } /* horizontal first */
+.last {margin-right:0 !important; } /* horizontal last */
+.top {margin-top:0 !important; } /* vertical first */
+.bottom {margin-bottom:0 !important; } /* vertical last */
+
+.clearfix:after {content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}
+.clearfix {display:inline-block}
+html[xmlns] .clearfix {display:block}
+
+/*
+.sIFR-flash { visibility: visible !important; margin: 0; padding: 0; }
+.sIFR-replaced, .sIFR-ignore { visibility: visible !important; }
+.sIFR-alternate { position: absolute; left: 0; top: 0; width: 0; height: 0; display: block; overflow: hidden; }
+.sIFR-replaced div.sIFR-fixfocus { margin: 0pt;  padding: 0pt;  overflow: auto; letter-spacing: 0px;  float: none; }
+.sIFR-replaced object:after {content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}
+*/

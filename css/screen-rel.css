@@ -1,0 +1,64 @@
+@charset "UTF-8";
+@import "reset.css";
+@import "default.css";
+
+/* geral */
+
+* {
+	font-family:verdana, tahoma, arial, sans-seri;
+	font-size:12px;
+}
+
+html, body {
+	width: 95%;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+/* report frame */
+
+h2 { font-size:20px; font-weight:bold; color: #5675b4; }
+
+table tr  td, table tr th { border: 1px solid #000; padding: 1px; }
+
+td.f1 { padding-left: 25px; }
+td.f2 { padding-left: 50px; }
+
+th { background-color: #bbb; font-weight:bold; }
+
+tr.c1 { background-color: #ccc; }
+tr.c2 { background-color: #eee; }
+
+td.s1, td.s2, td.p0, td.p1, th.s1, th.s2 { text-align: right; }
+
+/* form frame */
+
+div { float: left; padding-right: 10px; }
+select { width:200px; }
+select#client{ width:300px; }
+select.multi { height: 150px; }
+
+.clear { clear: both; }
+
+input.bt { 
+	background-image: url('../imgs/bt_bg.png'); 
+	border: 1px solid #2c89cb;
+	color: #fff;
+}
+
+input.bt {
+	height: 20px;
+	width: 78px;
+	font-size:10px;
+	opacity: 0.85;
+}
+
+input.bt:hover {
+	opacity: 1;
+}
+
+input.bt:active {
+	opacity: 1;
+	padding-left: 3px;
+	padding-top: 3px;
+}

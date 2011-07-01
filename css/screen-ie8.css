@@ -1,0 +1,13 @@
+﻿@charset "UTF-8";
+
+/* todos */
+
+body { overflow:hidden }
+#wrap {	width: 280px; height: 480px; }
+
+div.login input.bt {  margin-right: -40px; }
+
+select { width: 150px; }
+#work td.td-ie8-hack { width: 145px; }
+input.bt_out, input.bt { width:77px; }
+input.bt_out { margin-left: 0px; }

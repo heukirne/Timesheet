@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+/* +geral */
+body {
+	overflow:hidden
+}
+/* end geral */
+
+/* +classes */
+* html .clearfix {height:1%}
+/* end classes */
